@@ -203,4 +203,21 @@ RESULTS
   },
   {
     "job_id": 100410,
-    "job_title": "Director of Data Science & AI Rese_
+    "job_title": "Director of Data Science & AI Research",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "265000.0",
+    "job_posted_date": "2023-06-13",
+    "company_name": "Cnam - Auditeurs - Accueil"
+  },
+  {
+    "job_id": 294863,
+    "job_title": "Principal Data Scientist, Applied AI",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "262500.0",
+    "job_posted_date": "2023-09-05",
+    "company_name": "Movable Ink"
+  }
+]
+*/

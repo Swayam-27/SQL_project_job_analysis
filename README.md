@@ -98,6 +98,7 @@ INNER JOIN skills_dim
     ON skills_dim.skill_id = skills_job_dim.skill_id
 ORDER BY salary_year_avg DESC;
 ```
+![Top Paying Job Skills](/assets/query_2.png)
 
 **Here's the breakdown of the most demanded skills for the top 20 highest paying jobs:**
 
@@ -136,6 +137,7 @@ ORDER BY
     demand DESC 
 LIMIT 20;
 ```
+![Most In-Demand Skills](/assets/query_3.png)
 
 **Here's what we learned about the most in-demand skills for Data Scientists in 2023:**
 
@@ -167,6 +169,7 @@ ORDER BY
     avg_salary DESC
 LIMIT 25;
 ```
+![Top Paying Skill](/assets/query_4.png)
 
 **Here's the breakdown of the highest-paying skills for Data Scientists:**
 
@@ -271,6 +274,9 @@ ORDER BY
     num_jobs DESC;
 ```
 
+
+![Top Hiring Companies](/assets/query_6.png)
+
 **Key Insights:**
 
 - Hiring Volume Leaders: Walmart, Algo Capital, and Selby Jennings top the list, indicating aggressive hiring across retail, crypto, and consulting.
@@ -293,6 +299,7 @@ WHERE job_title='Data Scientist' AND salary_year_avg IS NOT NULL
 GROUP BY job_location, job_title_short
 ORDER BY avg_salary DESC;
 ```
+![Job Location V/S Average Salary ](/assets/query_7.png)
 
 **Key Insights:**
 
